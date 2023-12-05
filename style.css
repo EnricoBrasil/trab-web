@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body{
+    background-image: url(fundo.jpg);
+}
+
+.titulo{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+
+.logo{
+    margin:3px;
+}
+
+.menuNav ul{
+    display: flex;
+}
+
+.menuNav ul li{
+    list-style: none;
+    margin: .9375rem;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+/* Habilidades requeridas */
+
+.habilidades{
+    margin-top: 5rem;
+    background-color: rgb(7, 7, 7);
+    padding: 30px;
+    color: aliceblue;
+}
+
+.habilidades h1{
+    display: flex;
+    justify-content: center;
+}
+
+.listHabilidades{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.listHabilidades li{
+    font-size: 30px;
+}
+
+/* tempo de formação */
+
+.tempoFormação{
+    margin-top: 5rem;
+    background-color: rgb(143, 143, 143);
+    color: aliceblue;
+}
+
+.tempoFormação h1{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.txtform p{
+    display: flex;
+    text-align: center;
+    margin-top: 1.875rem;
+    padding: .625rem;
+    font-size: 22px;
+}
+
+footer{
+    margin-top: 140px;
+    display: flex;
+    height: 1.875rem;
+    background-color: rgb(3, 3, 3);
+    color: aliceblue;
+    justify-content: space-around;
+    padding: 1.875rem;
+}
+
+
+
+
+
+
